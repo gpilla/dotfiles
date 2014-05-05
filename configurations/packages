@@ -1,11 +1,9 @@
 synaptic
-gdebi
-compizconfig-settings-manager
 gnome-tweak-tool
 meld
-mysql-workbench mysql-server
-php5 php5-mysql php5-pgsql php-pear
-pgadmin3 postgresql
+mysql-workbench
+php5
+pgadmin3
 openjdk-7-jdk
 build-essential
 ubuntu-restricted-extras
@@ -14,21 +12,10 @@ subversion
 maven
 gparted
 vlc
-banshee
-audacity
-gimp
-testdisk
-fatsort
 agave
-guake
 p7zip-full
 nikto
-thunar
-samba
-cups-pdf
 ssh
-exfalso
-alacarte
 curl
 shutter
 sublime-text
