@@ -1,0 +1,7 @@
+if [ -d ${HOME}/.bash_completion/ ]; then
+ for file in ${HOME}/.bash_completion/* ; do
+   if [ -x $file ] ; then
+     [ -r "$file" ] && source $file
+   fi
+ done
+fi
