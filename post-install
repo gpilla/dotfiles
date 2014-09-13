@@ -1,0 +1,15 @@
+#!/bin/bash
+
+DOTFILES="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+
+POST_INSTALL_DIR=${DOTFILES}/post-install.d
+
+
+if [ -d ${POST_INSTALL_DIR} ]; then
+ for file in ${POST_INSTALL_DIR}/* ; do
+   if [ -x $file ] ; then
+     [ -r "$file" ] && source $file
+   fi
+ done
+fi

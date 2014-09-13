@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp ${DOTFILES}/bash/bash_completion ${HOME}/.bash_completion

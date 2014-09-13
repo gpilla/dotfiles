@@ -116,7 +116,7 @@
 [credential]
   helper = cache --timeout=18000
 [user]
-  name = hslavich
-  email = hernan.slavich@gmail.com
+  name = gpilla
+  email = pilla.gustavo@gmail.com
 [github]
   user = hslavich

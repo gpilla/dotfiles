@@ -2,7 +2,9 @@ synaptic
 gnome-tweak-tool
 meld
 mysql-workbench
-php5
+nodejs
+nodejs-legacy
+npm
 pgadmin3
 openjdk-7-jdk
 build-essential
@@ -21,3 +23,11 @@ shutter
 dkms
 atom
 caffeine
+openvpn
+geary
+indicator-sensors
+numix-gtk-theme
+unity-webapps-telegram
+popcorn-time
+filezilla
+pinta

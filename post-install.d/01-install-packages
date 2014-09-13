@@ -1,6 +1,6 @@
 #!/bin/bash
 
-repofile="../configurations/repositories"
+repofile={$DOTFILES}/configurations/repositories
 if [ -f $repofile ]; then
     while read p; do
         sudo apt-add-repository -y $p
@@ -8,4 +8,4 @@ if [ -f $repofile ]; then
     sudo apt-get update
 fi
 
-sudo apt-get -y install $(< ../configurations/packages)
+sudo apt-get -y install $(< ${DOTFILES}/configurations/packages)
